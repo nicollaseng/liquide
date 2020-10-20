@@ -25,7 +25,7 @@ export const Text = styled.Text<{
 	size?: number;
 	mb?: number;
 }>`
-	margin-bottom: ${props => props.mb ?? 0};
+	margin-bottom: ${props => props.mb ?? 0}px;
 	font-weight: ${props => props.bold ? 'bold' : 300};
-	font-size: ${props => normalizerFontSize(props.size)};
+	font-size: ${props => normalizerFontSize(props.size)}px;
 `;
