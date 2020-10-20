@@ -1,1 +1,1 @@
-export const requestEquipment = () => ({ type: 'REQUEST_EQUIPMENT' })
+export const requestEquipment = () => ({ type: 'REQUEST_EQUIPMENT' });
